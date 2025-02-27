@@ -93,7 +93,7 @@ public class BankingSystem {
      
     private static void switchAccount() {
         if (allAccounts.isEmpty()) {
-            System.out.println("⚠️ No accounts available! Create one first.");
+            System.out.println("No accounts available! Create one first.");
             return;
         }
 
@@ -109,9 +109,9 @@ public class BankingSystem {
         //Validate and switch account
         if (index >= 1 && index <= allAccounts.size()) {
             activeAccount = allAccounts.get(index - 1);
-            System.out.println("✅ Switched to account: " + activeAccount.getOwnerName());
+            System.out.println("Switched to account: " + activeAccount.getOwnerName());
         } else {
-            System.out.println("❌ Invalid selection! Please choose a valid account.");
+            System.out.println("Invalid selection! Please choose a valid account.");
         }
     }
 
