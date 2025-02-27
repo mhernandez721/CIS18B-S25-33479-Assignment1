@@ -10,7 +10,7 @@ This program does the following
 
 # Project Structure
 
-goober
+goober (packet)
 * BankingSystem.java   Handles user interactions and menu options
 * BankAccount.java     Manages individual bank accounts
 * README.md            Documentation file
